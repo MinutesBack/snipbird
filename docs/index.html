@@ -13,18 +13,18 @@
 <meta name="twitter:card" content="summary_large_image">
 <style>
   :root{
-    --ink:#1d2440; --ink-soft:#5a6486; --ink-faint:#8b94b0;
-    --bg:#f6f8ff; --bg-2:#ffffff; --line:#e2e8fa;
-    --brand:#4f7bf0; --brand-deep:#3a5fd0; --brand-wash:#eaf0ff;
-    --accent:#ffb333; --shadow:0 18px 40px -22px rgba(30,50,120,.45);
+    --ink:#14244a; --ink-soft:#52658a; --ink-faint:#7d8db0;
+    --bg:#f4f8ff; --bg-2:#ffffff; --line:#dce7fa;
+    --brand:#2f69ed; --brand-deep:#2452c7; --brand-wash:#e7f0ff; --on-brand:#fff;
+    --accent:#ffb333; --shadow:0 18px 40px -22px rgba(28,74,180,.38);
     --radius:22px;
   }
   @media (prefers-color-scheme: dark){
     .hero::before,.hero::after{opacity:.22}
     :root{
-      --ink:#eef1fb; --ink-soft:#a7b0cf; --ink-faint:#7b85a6;
-      --bg:#0e1226; --bg-2:#161c37; --line:#28304f;
-      --brand:#7fa2ff; --brand-deep:#5f86f5; --brand-wash:#1c2547;
+      --ink:#f2f6ff; --ink-soft:#b3c0db; --ink-faint:#8293b5;
+      --bg:#091225; --bg-2:#111c34; --line:#263a5e;
+      --brand:#83b4ff; --brand-deep:#a8c9ff; --brand-wash:#172a50; --on-brand:#091225;
       --shadow:0 18px 40px -22px rgba(0,0,0,.7);
     }
   }
@@ -45,8 +45,8 @@
   .hero::before,.hero::after{
     content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;z-index:0;
   }
-  .hero::before{width:520px;height:520px;background:#9fc0ff;top:-220px;left:-140px}
-  .hero::after{width:460px;height:460px;background:#c9b6ff;top:-160px;right:-160px}
+  .hero::before{width:520px;height:520px;background:#74b3ff;top:-220px;left:-140px}
+  .hero::after{width:460px;height:460px;background:#8797ff;top:-160px;right:-160px}
   .hero .wrap{position:relative;z-index:1}
   .bird{width:168px;height:168px;display:block;margin:0 auto 26px;animation:bob 4.5s ease-in-out infinite}
   @keyframes bob{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-13px) rotate(1.5deg)}}
@@ -62,7 +62,7 @@
     font-weight:650;font-size:16px;transition:transform .15s ease, box-shadow .15s ease;
   }
   .btn:hover{text-decoration:none;transform:translateY(-2px)}
-  .btn.primary{background:var(--brand);color:#fff;box-shadow:0 12px 26px -12px var(--brand)}
+  .btn.primary{background:var(--brand);color:var(--on-brand);box-shadow:0 12px 26px -12px var(--brand)}
   .btn.primary:hover{background:var(--brand-deep)}
   .btn.ghost{background:var(--bg-2);color:var(--ink);border:1px solid var(--line)}
   .meta{margin-top:18px;font-size:14px;color:var(--ink-faint)}
@@ -143,7 +143,7 @@
   .step::before{
     counter-increment:s;content:counter(s);
     position:absolute;left:24px;top:24px;width:32px;height:32px;border-radius:50%;
-    background:var(--brand);color:#fff;font-weight:700;font-size:15px;
+    background:var(--brand);color:var(--on-brand);font-weight:700;font-size:15px;
     display:flex;align-items:center;justify-content:center
   }
   .step h3{font-size:17px;margin-bottom:6px}
@@ -169,20 +169,20 @@
     <svg class="bird" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Snipbird logo">
   <defs>
     <linearGradient id="sbBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5C94FA"/><stop offset="1" stop-color="#4D5CDB"/>
+      <stop offset="0" stop-color="#57A1FF"/><stop offset="1" stop-color="#4A5FEB"/>
     </linearGradient>
     <clipPath id="sbCardClip">
       <rect x="512" y="599" width="322.6" height="261.1" rx="39" transform="rotate(16 673.3 729.6)"/>
     </clipPath>
     <filter id="sbShadow" x="-25%" y="-25%" width="150%" height="150%">
-      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#16255c" flood-opacity="0.25"/>
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#10265E" flood-opacity="0.25"/>
     </filter>
   </defs>
   <rect x="56.3" y="56.3" width="911.4" height="911.4" rx="203.9" fill="url(#sbBg)"/>
   <g filter="url(#sbShadow)">
     <rect x="512" y="599" width="322.6" height="261.1" rx="39" fill="#fff" transform="rotate(16 673.3 729.6)"/>
   </g>
-  <g clip-path="url(#sbCardClip)" fill="#99B0DB">
+  <g clip-path="url(#sbCardClip)" fill="#82A8E8">
     <rect x="618.4" y="656.9" width="161.3" height="20.5" rx="10.2" transform="rotate(16 673.3 729.6)"/>
     <rect x="618.4" y="711.7" width="161.3" height="20.5" rx="10.2" transform="rotate(16 673.3 729.6)"/>
     <rect x="618.4" y="766.6" width="96.8"  height="20.5" rx="10.2" transform="rotate(16 673.3 729.6)"/>
