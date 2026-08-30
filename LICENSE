@@ -1,0 +1,16 @@
+Snipbird Distribution Materials License
+
+Copyright (c) 2026 MinutesBack. All rights reserved.
+
+The website, artwork, documentation, release metadata, and other materials in
+this repository may not be copied, modified, republished, or redistributed
+without prior written permission from MinutesBack, except for ordinary links
+to the website and unmodified quotations permitted by applicable law.
+
+Snipbird application binaries are governed by the license accompanying the
+relevant release. Snipbird version 1.3.0 and later are governed by EULA.md.
+Snipbird version 1.2.0 and earlier were released under the MIT License and
+remain governed by their original terms. See LEGACY_OPEN_SOURCE_NOTICE.md and
+LICENSE-LEGACY-MIT.txt.
+
+Third-party components remain governed by their respective licenses.
