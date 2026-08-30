@@ -11,3 +11,6 @@ restrict rights already granted for legacy versions.
 MinutesBack no longer hosts the legacy application source code publicly.
 Removing public hosting does not withdraw rights already granted to people who
 received it.
+
+The original license text is preserved at
+[`legal/SNIPBIRD-1.2-MIT.txt`](legal/SNIPBIRD-1.2-MIT.txt).
