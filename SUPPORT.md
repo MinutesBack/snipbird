@@ -11,7 +11,7 @@ passwords, encryption keys, or personal information into a public issue.
 ## Before reporting
 
 1. Confirm that Snipbird is running from the Applications folder.
-2. Open the bird menu and select Check for Updates.
+2. Install updates from the Mac App Store, or select Check for Updates in the directly distributed edition.
 3. Reproduce the problem once and note the exact steps.
 4. Check existing issues for the same behavior.
 

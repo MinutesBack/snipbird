@@ -1,6 +1,6 @@
 # Snipbird privacy notice
 
-Effective date: August 30, 2026
+Effective date: August 31, 2026
 
 Snipbird is designed to process clipboard content on your Mac.
 
@@ -25,10 +25,12 @@ Users can also block selected applications from clipboard capture.
 
 ## Network access
 
-Snipbird uses Sparkle to check the public MinutesBack release feed for signed
-updates. This request may expose ordinary connection information, such as an IP
-address and user agent, to GitHub as the release host. Update archives must pass
-Snipbird's embedded EdDSA signature check before installation.
+The Mac App Store edition makes no network requests and receives updates through
+the Mac App Store. The directly distributed edition uses Sparkle to check the
+public MinutesBack release feed for signed updates. That update request may
+expose ordinary connection information, such as an IP address and user agent,
+to GitHub as the release host. Update archives must pass Snipbird's embedded
+EdDSA signature check before installation.
 
 ## Support reports
 
@@ -43,4 +45,4 @@ stored history, captured images, templates, and local settings. The Snipbird
 secure-storage key can be removed separately in Keychain Access.
 
 Questions may be submitted through the official Snipbird support page:
-https://github.com/MinutesBack/snipbird/issues
+https://minutesback.github.io/snipbird/support.html

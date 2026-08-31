@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Snipbird Support</title>
+  <meta name="description" content="Help, installation guidance, and bug reporting for Snipbird.">
+  <style>
+    :root{color-scheme:light dark;--ink:#14244a;--soft:#52658a;--bg:#f4f8ff;--card:#fff;--line:#dce7fa;--brand:#2f69ed}
+    @media(prefers-color-scheme:dark){:root{--ink:#f2f6ff;--soft:#b3c0db;--bg:#091225;--card:#111c34;--line:#263a5e;--brand:#83b4ff}}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+    main{max-width:760px;margin:0 auto;padding:64px 24px 88px}a{color:var(--brand)}.back{display:inline-block;margin-bottom:36px;text-decoration:none;font-weight:650}
+    h1{font-size:clamp(38px,7vw,58px);line-height:1.05;letter-spacing:-.035em;margin:0 0 14px}.lede{font-size:19px;color:var(--soft);margin:0 0 34px}
+    section{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px 28px;margin:16px 0}h2{font-size:21px;margin:0 0 8px}p,li{color:var(--soft)}ol{padding-left:22px}.button{display:inline-block;background:var(--brand);color:#091225;padding:11px 18px;border-radius:999px;text-decoration:none;font-weight:700;margin-top:8px}
+    @media(prefers-color-scheme:light){.button{color:#fff}}
+  </style>
+</head>
+<body><main>
+  <a class="back" href="./">← Snipbird</a>
+  <h1>How can we help?</h1>
+  <p class="lede">Most Snipbird problems can be reproduced and fixed without sharing private clipboard content.</p>
+  <section><h2>Before reporting a problem</h2><ol><li>Confirm Snipbird is running and the bird appears in the menu bar.</li><li>Install updates from the Mac App Store, or use Check for Updates in the direct edition.</li><li>Reproduce the problem once and note the exact steps.</li><li>Check whether an existing report describes the same behavior.</li></ol></section>
+  <section><h2>Report a bug</h2><p>Include the Snipbird version, macOS version, Mac processor, what you expected, what happened, and reproduction steps. Do not post clipboard contents, passwords, personal information, or encryption keys.</p><a class="button" href="https://github.com/MinutesBack/snipbird/issues/new?template=bug_report.yml">Open bug report</a></section>
+  <section><h2>Password prompt</h2><p>Snipbird keeps its encryption key in macOS Keychain. A genuine system dialog may appear once after a signing change. Select <strong>Always Allow</strong> so macOS remembers the approved Snipbird signature. Snipbird never receives your Mac password.</p></section>
+  <section><h2>Privacy</h2><p>Read the <a href="privacy.html">Snipbird Privacy Policy</a>. Clipboard content remains on your Mac.</p></section>
+</main></body></html>
