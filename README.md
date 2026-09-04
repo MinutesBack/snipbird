@@ -10,11 +10,9 @@ code.
 
 ## Download
 
-[Download the latest public release](https://github.com/MinutesBack/snipbird/releases/latest/download/Snipbird.dmg)
-
-The current public download is Snipbird 1.2.0, the legacy MIT edition. Snipbird
-1.3 is the first proprietary MinutesBack edition and will be published here
-after Apple Developer ID signing and notarization are complete.
+The public download is temporarily paused. Snipbird will return here after the
+next release completes Apple Developer ID signing, notarization, and final
+installed-app testing.
 
 ## What Snipbird does
 

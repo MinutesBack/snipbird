@@ -1,20 +1,10 @@
-# Install Snipbird 1.2 Legacy
+# Install Snipbird
 
-The current public download is Snipbird 1.2.0, the legacy MIT edition. It is
-cryptographically signed for Snipbird updates but was released before Apple
-Developer ID notarization was available for the project.
+The public download is temporarily paused while the next release completes
+Apple Developer ID signing, notarization, and final installed-app testing.
 
-1. [Download Snipbird.dmg](https://github.com/MinutesBack/snipbird/releases/latest/download/Snipbird.dmg).
-2. Open the disk image and drag Snipbird into Applications.
-3. Open Snipbird from Applications.
-4. If macOS blocks it, click Done, then open System Settings, select Privacy &
-   Security, scroll down, select Open Anyway beside Snipbird, and confirm.
-
-Snipbird appears as a bird in the menu bar. The first-run guide explains
-privacy, shortcuts, launch at login, and update preferences.
-
-Snipbird 1.3 will replace this download after Developer ID signing and Apple
-notarization are complete.
+Please check the [Snipbird repository](https://github.com/MinutesBack/snipbird)
+for release updates. Do not install Snipbird from an unofficial download.
 
 ## Uninstall
 
